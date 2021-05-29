@@ -5,12 +5,34 @@ Developed a model(Top 10% rank on Kaggle LB) that is able to segment/detect regi
 ### Dataset source:
 Kaggle: https://www.kaggle.com/c/siim-acr-pneumothorax-segmentation/overview
 
-## Business Contrains
+### Business Contrains
 * The cost of misclassification can be high. We do not want a Pneumothorax person to be detected as normal.
 * No strict latency constrain.
 
-## Results
+### Results
 <img src="https://github.com/arunm8489/SIIM-Pneumothorax-Segmentation/blob/main/data/results.png" width=800 height=200>
 
-## Model
+### Final Model (ResUnet with additional DeepSupervision Block)
 <img src="https://github.com/arunm8489/SIIM-Pneumothorax-Segmentation/blob/main/data/model.png" width=800 heigh=800>
+
+### Usage
+To create inference setup:
+
+First install all required packages
+```
+pip3 install -r requirements.txt
+
+```
+Now start your server
+```
+python app.py
+
+```
+
+Prediction endpoint will be avalilable on http://localhost:4001/predict. 
+
+**To test prediction yu can run test.py**
+```
+python test.py
+
+```
