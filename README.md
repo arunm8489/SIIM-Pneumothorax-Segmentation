@@ -13,4 +13,4 @@ Kaggle: https://www.kaggle.com/c/siim-acr-pneumothorax-segmentation/overview
 <img src="https://github.com/arunm8489/SIIM-Pneumothorax-Segmentation/blob/main/data/results.png" width=800 height=200>
 
 ## Model
-<img src="https://github.com/arunm8489/SIIM-Pneumothorax-Segmentation/blob/main/data/results.png" width=800 heigh=800>
+<img src="https://github.com/arunm8489/SIIM-Pneumothorax-Segmentation/blob/main/data/model.png" width=800 heigh=800>
