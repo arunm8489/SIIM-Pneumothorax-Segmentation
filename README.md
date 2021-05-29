@@ -15,6 +15,12 @@ Kaggle: https://www.kaggle.com/c/siim-acr-pneumothorax-segmentation/overview
 ### Final Model (ResUnet with additional DeepSupervision Block)
 <img src="https://github.com/arunm8489/SIIM-Pneumothorax-Segmentation/blob/main/data/model.png" width=800 heigh=800>
 
+Model is developed in Pytorch and is converted to ONNX runtime for faster inference. Inorder to conver trained model
+```
+python pytorch_to_onnx.py
+
+```
+
 ### Usage
 To create inference setup:
 
