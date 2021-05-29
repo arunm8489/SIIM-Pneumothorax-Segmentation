@@ -1,5 +1,5 @@
 # SIIM-Pneumothorax-Segmentation
-Developed a model(Top 10% rank on Kaggle LB) that is able to segment/detect regions of Pneumothorax from chest X-rays it can help doctors with the diagnosis. if successful, could aid in the early recognition of pneumothoraces and save lives.
+Developed a model(Top 10% rank on Kaggle LB) that is able to segment/detect regions of Pneumothorax from chest X-rays it can help doctors with the diagnosis. This could aid in the early recognition of pneumothoraces and save lives.
 
 
 ### Dataset source:
@@ -22,6 +22,14 @@ python pytorch_to_onnx.py
 ```
 
 ### Usage
+
+<img src="https://github.com/arunm8489/SIIM-Pneumothorax-Segmentation/blob/main/data/tree.png" height=300 width=200>
+
+
+
+
+
+
 To create inference setup:
 
 First install all required packages
