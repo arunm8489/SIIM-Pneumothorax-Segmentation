@@ -10,7 +10,7 @@ Kaggle: https://www.kaggle.com/c/siim-acr-pneumothorax-segmentation/overview
 * No strict latency constrain.
 
 ### Results
-<img src="https://github.com/arunm8489/SIIM-Pneumothorax-Segmentation/blob/main/data/results.png" width=800 height=200>
+<img src="https://github.com/arunm8489/SIIM-Pneumothorax-Segmentation/blob/main/data/results.png" width=800 height=150>
 
 ### Final Model (ResUnet with additional DeepSupervision Block)
 <img src="https://github.com/arunm8489/SIIM-Pneumothorax-Segmentation/blob/main/data/model.png" width=800 heigh=800>
@@ -23,10 +23,13 @@ python pytorch_to_onnx.py
 
 ### Usage
 
-<img src="https://github.com/arunm8489/SIIM-Pneumothorax-Segmentation/blob/main/data/tree.png" height=300 width=200>
+<img src="https://github.com/arunm8489/SIIM-Pneumothorax-Segmentation/blob/main/data/tree.png" height=300 width=400>
 
-
-
+* models : Contains Pytorch as well as converted onnx model
+* Notebooks: Contains Various training results using different models and parameters
+* python_to_onnx.py: convert pytorchto onnx model
+* utils.py: various helper functions
+* test.py: code to test api
 
 
 
