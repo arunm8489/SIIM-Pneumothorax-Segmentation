@@ -10,4 +10,7 @@ Kaggle: https://www.kaggle.com/c/siim-acr-pneumothorax-segmentation/overview
 * No strict latency constrain.
 
 ## Results
-<img src="https://github.com/arunm8489/SIIM-Pneumothorax-Segmentation/blob/main/Notebooks/resultsssim.png" width=1000 height=200>
+<img src="https://github.com/arunm8489/SIIM-Pneumothorax-Segmentation/blob/main/data/results.png" width=800 height=200>
+
+## Model
+<img src="https://github.com/arunm8489/SIIM-Pneumothorax-Segmentation/blob/main/data/results.png" width=800 heigh=800>
