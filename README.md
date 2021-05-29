@@ -10,12 +10,14 @@ Kaggle: https://www.kaggle.com/c/siim-acr-pneumothorax-segmentation/overview
 * No strict latency constrain.
 
 ## Results
+Experimented various models starting from Unet and following ResUnet,EffUnet,FPN, Unet++ etc along some varying augmentation, loss funtions etc for better perfomance model.
+
 <img src="https://github.com/arunm8489/SIIM-Pneumothorax-Segmentation/blob/main/data/results.png" width=800 height=150>
 
 ## Final Model (ResUnet with additional DeepSupervision Block)
 <img src="https://github.com/arunm8489/SIIM-Pneumothorax-Segmentation/blob/main/data/model.png" width=800 heigh=800>
 
-Model is developed in Pytorch and is converted to ONNX runtime for faster inference. Inorder to conver trained model
+Model is developed in Pytorch and is converted to ONNX runtime for faster inference. Inorder to convert trained model
 ```
 python pytorch_to_onnx.py
 ```
