@@ -20,7 +20,7 @@ Model is developed in Pytorch and is converted to ONNX runtime for faster infere
 python pytorch_to_onnx.py
 ```
 
-### Usage
+## Usage
 
 <img src="https://github.com/arunm8489/SIIM-Pneumothorax-Segmentation/blob/main/data/tree.png" height=300 width=400>
 
