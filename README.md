@@ -5,6 +5,9 @@ Developed a model(Top 10% rank on Kaggle LB) which is able to segment/detect reg
 ## Dataset source:
 Kaggle: https://www.kaggle.com/c/siim-acr-pneumothorax-segmentation/overview
 
+## Blog Explanation
+https://arunm8489.medium.com/siim-acr-pneumothorax-segmentation-top-10-result-abff760e0cab
+
 ## Business Contrains
 * The cost of misclassification can be high. We do not want a Pneumothorax person to be detected as normal.
 * No strict latency constrain.
