@@ -1,5 +1,5 @@
 # SIIM-Pneumothorax-Segmentation (Top 10% solution)
-Developed a model(Top 10% rank on Kaggle LB) which is able to segment/detect regions of Pneumothorax from chest X-rays it can help doctors with the diagnosis. This could aid in the early recognition of pneumothoraces and save lives.
+Developed a model(Top 10% rank on Kaggle LB) which is able to segment/detect regions of Pneumothorax from chest X-rays. This could aid doctors in early recognition of pneumothoraces and save lives.
 
 
 ## Dataset source:
